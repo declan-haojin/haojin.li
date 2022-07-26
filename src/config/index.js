@@ -152,8 +152,9 @@ const CustomSectionsConfig = [
 
                 <h4>{Icons['code']} Programming</h4>
                 <p className="programming-icons">
-                    {Icons['java']}
+                    {Icons['python']}
                     {Icons['ruby']}
+                    {Icons['java']}
                     {Icons['cpp']}
                     {Icons['javascript']}
                 </p>
@@ -161,8 +162,7 @@ const CustomSectionsConfig = [
                 <h4>{Icons['web']} Web</h4>
                 <p className="programming-icons">
                     {Icons['rails']}
-                    {Icons['mysql']}
-                    {Icons['php']}
+                    {Icons['postgresql']}
                     {Icons['nodejs']}
                     {Icons['react']}
                 </p>
