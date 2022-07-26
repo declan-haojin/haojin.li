@@ -30,7 +30,7 @@ import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import ComputerIcon from '@material-ui/icons/Computer';
 import InfoIcon from '@material-ui/icons/Info';
 import RateReviewIcon from '@material-ui/icons/RateReview';
-import Description from '@material-ui/icons/Description';
+import NotesIcon from '@material-ui/icons/Notes';
 
 // configURABLE TEXT BEGINS HERE
 
@@ -47,6 +47,11 @@ const CommonConfig = {
     // Information for social media accounts
     social: [
         {
+            name: 'Blog',
+            link: 'https://blog.haojin.li',
+            icon: <NotesIcon />
+        },
+        {
             // Name of the social media platform
             name: 'GitHub',
             // Link to your account
@@ -62,12 +67,8 @@ const CommonConfig = {
         {
             name: 'Email',
             link: 'mailto:hi@haojin.li'
-        },
-        {
-            name: 'Resume',
-            link: 'https://docs.google.com/document/d/15uVQAhsvKsreOd9Xvh9f-HGMkqpI_7dMuSKmQQvFdCo/view?usp=sharing',
-            icon: <Description />
         }
+
     ]
 };
 
@@ -144,12 +145,12 @@ const CustomSectionsConfig = [
         // Content inside the section
         content: (
             <>
-                <h4>{Icons['helpoutline']} who is this guy?</h4>
+                <h4>{Icons['helpoutline']} Who is this guy?</h4>
                 <p>
                     An easily excited and a highly passionate backend developer who is debugging all the time. Full of eagerness to learn and work on new technologies.
                 </p>
 
-                <h4>{Icons['code']} programming</h4>
+                <h4>{Icons['code']} Programming</h4>
                 <p className="programming-icons">
                     {Icons['java']}
                     {Icons['cpp']}
@@ -157,7 +158,7 @@ const CustomSectionsConfig = [
                     {Icons['javascript']}
                 </p>
 
-                <h4>{Icons['web']} web</h4>
+                <h4>{Icons['web']} Web</h4>
                 <p className="programming-icons">
                     {Icons['mysql']}
                     {Icons['php']}
