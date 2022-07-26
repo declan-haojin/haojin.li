@@ -6,37 +6,18 @@
     height: 100vh;
 
     .intro {
-        text-align: right;
-        width: 40%;
-        padding-right: 4rem;
-        border-right: 1px solid var(--text-primary);
+        text-align: center;
 
         h1 {
             font-size: 9rem;
             font-weight: bold;
-            line-height: 0.9em;
-            margin: 0;
+            line-height: 1.1em;
+            margin: 2rem;
         }
 
         p {
             font-size: 2rem;
             margin: 0;
-        }
-    }
-
-    .signature {
-        text-align: left;
-        width: 60%;
-        height: 100%;
-        padding-left: 4rem;
-
-        svg {
-            height: 100%;
-            width: 100%;
-
-            #signature-path {
-                animation: drawSignature 5s linear forwards;
-            }
         }
     }
 

@@ -11,7 +11,7 @@ class TopSection extends React.Component {
             const signatureLength = this.pathElement.getTotalLength();
             this.pathElement.setAttribute('stroke-dasharray', signatureLength);
             this.pathElement.setAttribute('stroke-dashoffset', signatureLength);
-            
+
             const viewBoxCoords = CommonConfig.signature?.viewBox.split(' ').map(val => parseInt(val));
             this.pathElement.setAttribute('stroke-width', Math.max(...viewBoxCoords) / 100);
         }
@@ -24,14 +24,7 @@ class TopSection extends React.Component {
                     <h1>{CommonConfig.name}</h1>
                     <p>{CommonConfig.tagline}</p>
                 </div>
-                <div className="signature">
-                    <svg viewBox={CommonConfig.signature?.viewBox}>
-                        <path ref={pathElement => {
-                            this.pathElement = pathElement;
-                        }} id="signature-path" stroke="var(--text-primary)" fill="none"
-                            d={CommonConfig.signature?.signaturePathD} />
-                    </svg>
-                </div>
+
                 <div className="social">
                     {CommonConfig.social.map((socialDetails, index) => {
                         return (

@@ -25,6 +25,7 @@ import { ReactComponent as PHPIcon } from '../assets/icons/php-plain.svg';
 import { ReactComponent as ReactIcon } from '../assets/icons/react-original-wordmark.svg';
 import { ReactComponent as TypeScriptIcon } from '../assets/icons/typescript-plain.svg';
 import { ReactComponent as GraphQLIcon } from '../assets/icons/graphql.svg';
+// import { ReactComponent as RubyIcon } from '../assets/icons/ruby.svg';
 // ICONS END
 
 /** Default icons */
@@ -46,6 +47,7 @@ const Icons = {
     nodejs: <SvgIcon component={NodejsIcon} viewBox="0 0 128 128" fontSize="large" title="Node.js" />,
     react: <SvgIcon component={ReactIcon} viewBox="0 0 128 128" fontSize="large" title="React" />,
     angular: <SvgIcon component={AngularIcon} viewBox="0 0 128 128" fontSize="large" title="Angular" />,
+    // ruby: <SvgIcon component={RubyIcon} viewBox="0 0 128 128" fontSize="large" title="Ruby" />,
     graphql: <SvgIcon component={GraphQLIcon} viewBox="0 0 400 400" fontSize="large" title="GraphQL" />,
     helpoutline: <HelpOutlineIcon />,
     map: <MapIcon />,

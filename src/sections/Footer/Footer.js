@@ -9,7 +9,7 @@ class Footer extends React.Component {
         return (
             <div className="footer">
                 <p>
-                    Copyright &copy; {new Date().getFullYear()} All rights reserved
+                    &copy; 2018-{new Date().getFullYear()} Haojin Li
                 </p>
                 <p>
                     {CommonConfig.social.map((socialDetails, index) => {
@@ -23,9 +23,6 @@ class Footer extends React.Component {
                             </CircleButton>
                         );
                     })}
-                </p>
-                <p>
-                    <a href="https://github.com/9inpachi/krit" target="_blank" rel="noopener noreferrer">get the code {'</>'}</a>
                 </p>
             </div>
         );
