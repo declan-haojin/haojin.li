@@ -29,6 +29,7 @@ import { ReactComponent as RailsIcon } from '../assets/icons/rails-plain-wordmar
 import { ReactComponent as RubyIcon } from '../assets/icons/ruby-plain-wordmark.svg';
 import { ReactComponent as PythonIcon } from '../assets/icons/python-plain-wordmark.svg';
 import { ReactComponent as PostgresqlIcon } from '../assets/icons/postgresql-plain-wordmark.svg';
+import { ReactComponent as SvelteIcon } from '../assets/icons/svelte-plain-wordmark.svg';
 // import { ReactComponent as RubyIcon } from '../assets/icons/ruby.svg';
 // ICONS END
 
@@ -55,6 +56,7 @@ const Icons = {
     rails: <SvgIcon component={RailsIcon} viewBox="0 0 128 128" fontSize="large" title="Rails" />,
     python: <SvgIcon component={PythonIcon} viewBox="0 0 128 128" fontSize="large" title="Python" />,
     postgresql: <SvgIcon component={PostgresqlIcon} viewBox="0 0 128 128" fontSize="large" title="PostgreSQL" />,
+    svelte: <SvgIcon component={SvelteIcon} viewBox="0 0 128 128" fontSize="large" title="Svelte" />,
     helpoutline: <HelpOutlineIcon />,
     map: <MapIcon />,
     code: <CodeIcon />,

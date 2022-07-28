@@ -24,13 +24,11 @@ import React from 'react';
 import { Icons } from './icons';
 
 // CUSTOM ICONS
-import SettingsInputAntennaIcon from '@material-ui/icons/SettingsInputAntenna';
 import WbIridescentIcon from '@material-ui/icons/WbIridescent';
-import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import ComputerIcon from '@material-ui/icons/Computer';
 import InfoIcon from '@material-ui/icons/Info';
 import RateReviewIcon from '@material-ui/icons/RateReview';
-import NotesIcon from '@material-ui/icons/Notes';
+import ArticleIcon from '@mui/icons-material/Article';
 
 // configURABLE TEXT BEGINS HERE
 
@@ -49,7 +47,7 @@ const CommonConfig = {
         {
             name: 'Blog',
             link: 'https://blog.haojin.li',
-            icon: <NotesIcon />
+            icon: <ArticleIcon/>
         },
         {
             // Name of the social media platform
@@ -163,6 +161,7 @@ const CustomSectionsConfig = [
                 <p className="programming-icons">
                     {Icons['rails']}
                     {Icons['nodejs']}
+                    {Icons['svelte']}
                     {Icons['postgresql']}
                     {Icons['react']}
                 </p>
