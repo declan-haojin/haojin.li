@@ -88,7 +88,7 @@ const ProjectsConfig = {
             // Icon of the project
             icon: Icons['map'],
             // Description of the project
-            description: 'A full-stack web application that centralizes cumbersome on-campus issue-reporting avenues and provides status tracking feature across two different ticketing systems used by Duke.',
+            description: 'A full-stack web application that centralizes cumbersome issue reporting avenues on campus and provides status tracking feature across two separate Duke ticketing systems for end users.',
             // Links to the project
             links: [
                 // {
@@ -109,7 +109,7 @@ const ProjectsConfig = {
         {
             name: 'Haojin\'s blog',
             icon: <WbIridescentIcon />,
-            description: 'My personal blog for keeping mindful living.',
+            description: 'My personal blog for keeping mindful living. Starting from a blog for competitive programming tutorials in 2018 to genereally everything including life reflections.',
             links: [
                 {
                     tooltip: 'See source',
@@ -155,6 +155,8 @@ const CustomSectionsConfig = [
                     {Icons['java']}
                     {Icons['cpp']}
                     {Icons['javascript']}
+                    {Icons['arduino']}
+
                 </p>
 
                 <h4>{Icons['web']} Web</h4>
@@ -162,8 +164,11 @@ const CustomSectionsConfig = [
                     {Icons['rails']}
                     {Icons['nodejs']}
                     {Icons['svelte']}
+                    {Icons['travis']}
+                    {Icons['centos']}
                     {Icons['postgresql']}
-                    {Icons['react']}
+                    {/* {Icons['react']} */}
+
                 </p>
             </>
         )
