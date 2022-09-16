@@ -29,6 +29,10 @@ import ComputerIcon from '@material-ui/icons/Computer';
 import InfoIcon from '@material-ui/icons/Info';
 import RateReviewIcon from '@material-ui/icons/RateReview';
 import ArticleIcon from '@mui/icons-material/Article';
+import EditIcon from '@mui/icons-material/Edit';
+import ResumeIcon from '@mui/icons-material/Description';
+
+
 
 // configURABLE TEXT BEGINS HERE
 
@@ -47,7 +51,7 @@ const CommonConfig = {
         {
             name: 'Blog',
             link: 'https://blog.haojin.li',
-            icon: <ArticleIcon/>
+            icon: <EditIcon/>
         },
         {
             // Name of the social media platform
