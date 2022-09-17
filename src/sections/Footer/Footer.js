@@ -10,6 +10,9 @@ class Footer extends React.Component {
             <div className="footer">
                 <p>
                     &copy; 2018-{new Date().getFullYear()} Haojin Li
+
+                    <br/>
+                    <a href="http://beian.miit.gov.cn/">陕ICP备20002271号-1</a>
                 </p>
                 <p>
                     {CommonConfig.social.map((socialDetails, index) => {
