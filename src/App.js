@@ -32,7 +32,7 @@ class App extends React.Component {
         });
 
         // Setting document title
-        document.title = "热爱生活 - Haojin Li";
+        document.title = "热爱生活";
     }
 
     render() {
