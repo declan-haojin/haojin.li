@@ -141,7 +141,7 @@ const CustomSectionsConfig = [
         headerIcon: <InfoIcon />,
         // Extra classes to apply styling
         // "section-reverse" class makes a section right to left
-        extraClass: 'about-section section-reverse',
+        extraClass: 'about-section',
         // If you don't want a section in menu, make this true
         notInMenu: false,
         // Content inside the section
@@ -180,6 +180,7 @@ const CustomSectionsConfig = [
     {
         name: 'Favorite Quotes',
         headerIcon: <RateReviewIcon />,
+        extraClass: "section-reverse",
         content: (
             <>
                 <p>
