@@ -41,8 +41,8 @@ class App extends React.Component {
                 {CommonConfig.addFreePalestine && <FreePalestine />}
                 <Menu sectionRefs={this.sectionRefs} />
                 <TopSection />
-                <ProjectsSection ref={this.sectionRefs['projects']} />
                 <CustomSections sectionRefs={this.sectionRefs} />
+                <ProjectsSection ref={this.sectionRefs['projects']} />
                 <Footer />
             </>
         );
