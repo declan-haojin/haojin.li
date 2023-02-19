@@ -26,11 +26,10 @@ import { Icons } from './icons';
 import WbIridescentIcon from '@material-ui/icons/WbIridescent';
 import ComputerIcon from '@material-ui/icons/Computer';
 import InfoIcon from '@material-ui/icons/Info';
-import RateReviewIcon from '@material-ui/icons/RateReview';
-import EditIcon from '@mui/icons-material/Edit';
 import BookIcon from '@mui/icons-material/Book';
-import PersonIcon from '@mui/icons-material/Person';
-
+import HandymanIcon from '@mui/icons-material/Handyman';
+import DriveFileRenameOutlineIcon from '@mui/icons-material/DriveFileRenameOutline';
+import ScienceIcon from '@mui/icons-material/Science';
 
 // configURABLE TEXT BEGINS HERE
 
@@ -88,21 +87,18 @@ const ProjectsConfig = {
             // Name of the project
             name: 'Duke FixIt',
             // Icon of the project
-            icon: Icons['map'],
+            icon: <HandymanIcon />,
             // Description of the project
-            description: 'A full-stack web application that centralizes cumbersome issue reporting avenues on campus and provides status tracking feature across two separate Duke ticketing systems for end users.',
+            description: 'A full-stack web application centralizes issue reporting avenues on campus, streamlining the cumbersome process and providing end users with a status tracking feature that spans two separate Duke ticketing systems.',
             // Links to the project
             links: [
-                // {
-                //     // Tooltip of the link
-                //     tooltip: 'See source',
-                //     // Link URL
-                //     link: 'https://github.com/xwiki-contrib/application-interactive-maps',
-                //     // Icon of the button
-                //     icon: Icons['code']
-                // },
                 {
-                    tooltip: 'See app',
+                    tooltip: 'See code (only within Duke network)',
+                    link: 'https://gitlab.oit.duke.edu/essweb/fixit',
+                    icon: Icons['code']
+                },
+                {
+                    tooltip: 'See website (only within Duke network )',
                     link: 'https://fixit-test.cloud.duke.edu',
                     icon: Icons['link']
                 }
@@ -110,8 +106,8 @@ const ProjectsConfig = {
         },
         {
             name: 'Haojin\'s blog',
-            icon: <WbIridescentIcon />,
-            description: 'My personal blog for keeping mindful living. Starting from a blog for competitive programming tutorials in 2018 to genereally everything including life reflections.',
+            icon: <DriveFileRenameOutlineIcon />,
+            description: 'From its beginnings in 2018 as a blog for competitive programming tutorials, my personal blog has since expanded to encompass everything from learning to reflections on my life.',
             links: [
                 {
                     tooltip: 'See source',
@@ -119,8 +115,25 @@ const ProjectsConfig = {
                     icon: Icons['code']
                 },
                 {
-                    tooltip: 'See app',
+                    tooltip: 'See website',
                     link: 'https://blog.haojin.li',
+                    icon: Icons['link']
+                }
+            ]
+        },
+        {
+            name: 'Explore BERT and Bi-LSTM with Attention for Chinese Essay Automated Scoring (Publication)',
+            icon: <ScienceIcon />,
+            description: 'The paper proposes a new neural network model for automated Chinese essay scoring. The model integrates the BERT network for obtaining sentence vectors and a Bi-LSTM with two types of attention mechanism to extract essay vector representation. The model was trained on a self-collected open-source dataset and outperformed existing ones by 24%.',
+            links: [
+                {
+                    tooltip: 'See open-source dataset',
+                    link: 'https://github.com/declan-haojin/AES-Dataset',
+                    icon: Icons['code']
+                },
+                {
+                    tooltip: 'See publication',
+                    link: 'https://doi.org/10.1088/1742-6596/1631/1/012036',
                     icon: Icons['link']
                 }
             ]
@@ -178,32 +191,32 @@ const CustomSectionsConfig = [
             </>
         )
     },
-    {
-        name: 'Favorite Quotes',
-        headerIcon: <RateReviewIcon />,
-        extraClass: "section-reverse",
-        content: (
-            <>
-                <p>
-                    <span style={{ fontSize: '5rem', height: '30px', display: 'block' }}>“</span>
-                    <br />
-                    We are a walking paradox. We love good but evil. We are free but imprisoned.
-                </p>
+    // {
+    //     name: 'Favorite Quotes',
+    //     headerIcon: <RateReviewIcon />,
+    //     extraClass: "section-reverse",
+    //     content: (
+    //         <>
+    //             <p>
+    //                 <span style={{ fontSize: '5rem', height: '30px', display: 'block' }}>“</span>
+    //                 <br />
+    //                 We are a walking paradox. We love good but evil. We are free but imprisoned.
+    //             </p>
 
 
-                <p>
-                    <span style={{ fontSize: '5rem', height: '30px', display: 'block' }}>“</span>
-                    <br />
-                    生活不是你活过的样子，而是你记住的样子。
-                </p>
-                {/* <p style={{ textAlign: 'right', fontSize: 'small' }}>
-                    <i>
-                        <b>余华 《活着》</b>
-                    </i>
-                </p> */}
-            </>
-        )
-    }
+    //             <p>
+    //                 <span style={{ fontSize: '5rem', height: '30px', display: 'block' }}>“</span>
+    //                 <br />
+    //                 生活不是你活过的样子，而是你记住的样子。
+    //             </p>
+    //             {/* <p style={{ textAlign: 'right', fontSize: 'small' }}>
+    //                 <i>
+    //                     <b>余华 《活着》</b>
+    //                 </i>
+    //             </p> */}
+    //         </>
+    //     )
+    // }
 ];
 
 export { CommonConfig, ProjectsConfig, CustomSectionsConfig, Icons };
