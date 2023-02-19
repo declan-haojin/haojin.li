@@ -34,6 +34,10 @@ import { ReactComponent as ArduinoIcon } from '../assets/icons/arduino-plain-wor
 import { ReactComponent as BulmaIcon } from '../assets/icons/bulma-plain.svg';
 import { ReactComponent as TravisIcon } from '../assets/icons/travis-plain-wordmark.svg';
 import { ReactComponent as CentosIcon } from '../assets/icons/centos-plain-wordmark.svg';
+import { ReactComponent as DockerIcon } from '../assets/icons/docker-plain-wordmark.svg';
+import { ReactComponent as NginxIcon } from '../assets/icons/nginx-original.svg';
+import { ReactComponent as FlaskIcon } from '../assets/icons/flask-original-wordmark.svg';
+import { ReactComponent as MongodbIcon } from '../assets/icons/mongodb-original-wordmark.svg';
 // import { ReactComponent as RubyIcon } from '../assets/icons/ruby.svg';
 // ICONS END
 
@@ -65,6 +69,10 @@ const Icons = {
     bulma: <SvgIcon component={BulmaIcon} viewBox="0 0 128 128" fontSize="large" title="Bulma" />,
     travis: <SvgIcon component={TravisIcon} viewBox="0 0 128 128" fontSize="large" title="Travis CI" />,
     centos: <SvgIcon component={CentosIcon} viewBox="0 0 128 128" fontSize="large" title="CentOS" />,
+    docker: <SvgIcon component={DockerIcon} viewBox="0 0 128 128" fontSize="large" title="Docker" />,
+    nginx: <SvgIcon component={NginxIcon} viewBox="0 0 128 128" fontSize="large" title="Nginx" />,
+    flask: <SvgIcon component={FlaskIcon} viewBox="0 0 128 128" fontSize="large" title="Nginx" />,
+    mongodb: <SvgIcon component={MongodbIcon} viewBox="0 0 128 128" fontSize="large" title="Nginx" />,
     helpoutline: <HelpOutlineIcon />,
     map: <MapIcon />,
     code: <CodeIcon />,

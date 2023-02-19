@@ -28,10 +28,8 @@ import WbIridescentIcon from '@material-ui/icons/WbIridescent';
 import ComputerIcon from '@material-ui/icons/Computer';
 import InfoIcon from '@material-ui/icons/Info';
 import RateReviewIcon from '@material-ui/icons/RateReview';
-import ArticleIcon from '@mui/icons-material/Article';
 import EditIcon from '@mui/icons-material/Edit';
-import ResumeIcon from '@mui/icons-material/Description';
-
+import BookIcon from '@mui/icons-material/Book';
 
 
 // configURABLE TEXT BEGINS HERE
@@ -51,7 +49,7 @@ const CommonConfig = {
         {
             name: 'Blog',
             link: 'https://blog.haojin.li',
-            icon: <EditIcon/>
+            icon: <BookIcon/>
         },
         {
             // Name of the social media platform
@@ -149,7 +147,7 @@ const CustomSectionsConfig = [
             <>
                 <h4>{Icons['helpoutline']} Who is this guy?</h4>
                 <p>
-                    An easily excited and a highly passionate backend developer who is debugging all the time. Full of eagerness to learn and work on new technologies.
+                Hey there! My name is Haojin and I am currently an undergraduate student studying Computer Science and (hopefully) Political Science at Duke University.
                 </p>
 
                 <h4>{Icons['code']} Programming</h4>
@@ -159,19 +157,22 @@ const CustomSectionsConfig = [
                     {Icons['java']}
                     {Icons['cpp']}
                     {Icons['javascript']}
-                    {Icons['arduino']}
 
                 </p>
 
                 <h4>{Icons['web']} Web</h4>
                 <p className="programming-icons">
                     {Icons['rails']}
+                    {Icons['react']}
+                    {Icons['flask']}
                     {Icons['nodejs']}
-                    {Icons['svelte']}
-                    {Icons['travis']}
-                    {Icons['centos']}
+                    {Icons['docker']}
                     {Icons['postgresql']}
-                    {/* {Icons['react']} */}
+                    {Icons['mongodb']}
+                    {Icons['centos']}
+                    {Icons['nginx']}
+                    {Icons['travis']}
+
 
                 </p>
             </>
