@@ -4,6 +4,16 @@
         font-size: 2rem;
     }
 
+    li {
+        @media (max-width: 768px) {
+          list-style: none;
+        }
+    }
+
+    a {
+        font-weight: 800;
+    }
+
     .programming-icons {
 
         svg {

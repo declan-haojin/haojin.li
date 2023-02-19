@@ -8,7 +8,7 @@ import { ProjectsConfig } from '../../config';
 class ProjectsSection extends React.Component {
     render() {
         return (
-            <Section sectionHeader={ProjectsConfig.name} headerIcon={ProjectsConfig.headerIcon}>
+            <Section sectionHeader={ProjectsConfig.name} headerIcon={ProjectsConfig.headerIcon} extraClass={ProjectsConfig.extraClass ? ProjectsConfig.extraClass : ''}>
                 {ProjectsConfig.projects.map((project, index) => {
                     return (
                         <div className="project" key={'project-' + index}>

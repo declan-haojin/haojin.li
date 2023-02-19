@@ -38,6 +38,7 @@ import { ReactComponent as DockerIcon } from '../assets/icons/docker-plain-wordm
 import { ReactComponent as NginxIcon } from '../assets/icons/nginx-original.svg';
 import { ReactComponent as FlaskIcon } from '../assets/icons/flask-original-wordmark.svg';
 import { ReactComponent as MongodbIcon } from '../assets/icons/mongodb-original-wordmark.svg';
+import { ReactComponent as RIcon } from '../assets/icons/r-plain.svg';
 // import { ReactComponent as RubyIcon } from '../assets/icons/ruby.svg';
 // ICONS END
 
@@ -73,6 +74,7 @@ const Icons = {
     nginx: <SvgIcon component={NginxIcon} viewBox="0 0 128 128" fontSize="large" title="Nginx" />,
     flask: <SvgIcon component={FlaskIcon} viewBox="0 0 128 128" fontSize="large" title="Nginx" />,
     mongodb: <SvgIcon component={MongodbIcon} viewBox="0 0 128 128" fontSize="large" title="Nginx" />,
+    r: <SvgIcon component={RIcon} viewBox="0 0 128 128" fontSize="large" title="R" />,
     helpoutline: <HelpOutlineIcon />,
     map: <MapIcon />,
     code: <CodeIcon />,

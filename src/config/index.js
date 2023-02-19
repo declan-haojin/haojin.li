@@ -20,7 +20,6 @@
  */
 
 import React from 'react';
-
 import { Icons } from './icons';
 
 // CUSTOM ICONS
@@ -30,6 +29,7 @@ import InfoIcon from '@material-ui/icons/Info';
 import RateReviewIcon from '@material-ui/icons/RateReview';
 import EditIcon from '@mui/icons-material/Edit';
 import BookIcon from '@mui/icons-material/Book';
+import PersonIcon from '@mui/icons-material/Person';
 
 
 // configURABLE TEXT BEGINS HERE
@@ -81,7 +81,7 @@ const ProjectsConfig = {
     headerIcon: <ComputerIcon />,
     // Extra classes to apply styling
     // "section-reverse" class makes a section right to left
-    extraClass: '',
+    extraClass: 'section-reverse',
     // Projects
     projects: [
         {
@@ -146,9 +146,11 @@ const CustomSectionsConfig = [
         content: (
             <>
                 <h4>{Icons['helpoutline']} Who is this guy?</h4>
-                <p>
-                Hey there! My name is Haojin and I am currently an undergraduate student studying Computer Science and (hopefully) Political Science at Duke University.
-                </p>
+                <p><li>A Duke student double-majoring in Computer Science and Political Science</li></p>
+                <p><li>An easily excited and highly passionate developer who is debugging all the time</li></p>
+                <p><li>An unskilled hiker who dreams of thru-hiking the <a href='https://appalachiantrail.org/explore/hike-the-a-t/thru-hiking/'>Appalachian Trail</a></li></p>
+                <p><li>A dreadfully bad karting driver obsessed with Formula 1</li></p>
+                <p><li>A non-country boy in love with 'Take Me Home, Country Roads'</li></p>
 
                 <h4>{Icons['code']} Programming</h4>
                 <p className="programming-icons">
@@ -157,7 +159,7 @@ const CustomSectionsConfig = [
                     {Icons['java']}
                     {Icons['cpp']}
                     {Icons['javascript']}
-
+                    {Icons['r']}
                 </p>
 
                 <h4>{Icons['web']} Web</h4>
@@ -172,8 +174,6 @@ const CustomSectionsConfig = [
                     {Icons['centos']}
                     {Icons['nginx']}
                     {Icons['travis']}
-
-
                 </p>
             </>
         )
