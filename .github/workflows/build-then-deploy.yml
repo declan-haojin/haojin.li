@@ -38,4 +38,4 @@ jobs:
           SOURCE: 'build/'
           REMOTE_HOST: ${{ secrets.SERVER_HOST }}
           REMOTE_USER: ${{ secrets.USER_NAME }}
-          TARGET: /www/wwwroot/test.haojin.li
+          TARGET: /www/wwwroot/haojin.li
