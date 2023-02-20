@@ -30,6 +30,7 @@ import BookIcon from '@mui/icons-material/Book';
 import HandymanIcon from '@mui/icons-material/Handyman';
 import DriveFileRenameOutlineIcon from '@mui/icons-material/DriveFileRenameOutline';
 import ScienceIcon from '@mui/icons-material/Science';
+import LanguageIcon from '@mui/icons-material/Language';
 
 // configURABLE TEXT BEGINS HERE
 
@@ -134,6 +135,18 @@ const ProjectsConfig = {
                 {
                     tooltip: 'See publication',
                     link: 'https://doi.org/10.1088/1742-6596/1631/1/012036',
+                    icon: Icons['link']
+                }
+            ]
+        },
+        {
+            name: 'haojin.li/[keyword] URL Shortener',
+            icon: <LanguageIcon />,
+            description: 'A private self-hosted URL shortener service based on YOURLS open-source framework, operates under my personal domain, haojin.li.',
+            links: [
+                {
+                    tooltip: 'Try haojin.li/github',
+                    link: 'https://haojin.li/github',
                     icon: Icons['link']
                 }
             ]
