@@ -10,17 +10,6 @@ on:
     branches: [ "china" ]
 
 jobs:
-  merge-branch:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@master
-      - name: Merge main -> china
-        uses: devmasx/merge-branch@master
-        with:
-          type: now
-          target_branch: china
-          github_token: ${{ secrets.WORKFLOW_TOKEN }}
-
 
   build:
     runs-on: ubuntu-latest
@@ -41,7 +30,7 @@ jobs:
     - run: CI=false npm run build
 
     # Deploy to server
-    - name: Deploy to Digital Ocean server
+    - name: Deploy
       uses: easingthemes/ssh-deploy@main
       env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
