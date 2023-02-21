@@ -50,13 +50,3 @@ jobs:
           REMOTE_HOST: ${{ secrets.SERVER_HOST }}
           REMOTE_USER: ${{ secrets.USER_NAME }}
           TARGET: /www/wwwroot/haojin.li
-
-    - name: Deploy to Tencent server
-      uses: easingthemes/ssh-deploy@main
-      env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          # ARGS: '-avz --delete'
-          SOURCE: 'build/'
-          REMOTE_HOST: ${{ secrets.SERVER_HOST_TENCENT }}
-          REMOTE_USER: ${{ secrets.USER_NAME }}
-          TARGET: /www/wwwroot/lihaojin.cn
