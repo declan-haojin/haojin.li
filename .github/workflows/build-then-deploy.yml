@@ -10,7 +10,16 @@ on:
     branches: [ "china" ]
 
 jobs:
-
+  # merge-branch:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@master
+  #     - name: Merge main -> china
+  #       uses: devmasx/merge-branch@master
+  #       with:
+  #         type: now
+  #         target_branch: china
+  #         github_token: ${{ secrets.WORKFLOW_TOKEN }}
   build:
     runs-on: ubuntu-latest
 
