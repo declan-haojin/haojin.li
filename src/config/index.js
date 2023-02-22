@@ -23,14 +23,15 @@ import React from 'react';
 import { Icons } from './icons';
 
 // CUSTOM ICONS
-import WbIridescentIcon from '@material-ui/icons/WbIridescent';
 import ComputerIcon from '@material-ui/icons/Computer';
 import InfoIcon from '@material-ui/icons/Info';
 import BookIcon from '@mui/icons-material/Book';
 import HandymanIcon from '@mui/icons-material/Handyman';
 import DriveFileRenameOutlineIcon from '@mui/icons-material/DriveFileRenameOutline';
-import ScienceIcon from '@mui/icons-material/Science';
 import LanguageIcon from '@mui/icons-material/Language';
+import DescriptionIcon from '@mui/icons-material/Description';
+import TranslateIcon from '@mui/icons-material/Translate';
+import PersonIcon from '@mui/icons-material/Person';
 
 // configURABLE TEXT BEGINS HERE
 
@@ -43,7 +44,7 @@ const CommonConfig = {
     // Tagline that will be displayed after the name
     tagline: 'Student at Duke University',
     // Configuration for signature in the top section
-    email: 'hi@haojin.li',
+    email: 'work@haojin.li',
     // Information for social media accounts
     social: [
         {
@@ -66,8 +67,13 @@ const CommonConfig = {
         },
         {
             name: 'Email',
-            link: 'mailto:hi@haojin.li'
-        }
+            link: 'mailto:work@haojin.li'
+        },
+        {
+            name: "Resume",
+            link: 'https://dropovercl.s3.amazonaws.com/2d08c987-9397-4a74-a0e0-d7782afd7fab/f9b45e82-5214-4830-b9da-2dfa16a429f7/2d491796-788f-45e0-a626-9e05d3bfa70c.pdf',
+            icon: <DescriptionIcon/>
+        },
 
     ]
 };
@@ -124,7 +130,7 @@ const ProjectsConfig = {
         },
         {
             name: 'Explore BERT and Bi-LSTM with Attention for Chinese Essay Automated Scoring (Publication)',
-            icon: <ScienceIcon />,
+            icon: <TranslateIcon />,
             description: 'The paper proposes a new neural network model for automated Chinese essay scoring. The model integrates the BERT network for obtaining sentence vectors and a Bi-LSTM with two types of attention mechanism to extract essay vector representation. The model was trained on a self-collected open-source dataset and outperformed existing ones by 24%.',
             links: [
                 {
@@ -171,7 +177,7 @@ const CustomSectionsConfig = [
         // Content inside the section
         content: (
             <>
-                <h4>{Icons['helpoutline']} Who is this guy?</h4>
+                <h4><PersonIcon /> Who is this guy?</h4>
                 <p><li>A Duke student double-majoring in Computer Science and Political Science</li></p>
                 <p><li>An easily excited and highly passionate developer who is debugging all the time</li></p>
                 <p><li>An unskilled hiker who dreams of thru-hiking the <a href='https://appalachiantrail.org/explore/hike-the-a-t/thru-hiking/'>Appalachian Trail</a></li></p>
