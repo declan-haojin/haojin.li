@@ -5,9 +5,9 @@ name: build-then-deploy CI
 
 on:
   push:
-    branches: [ "china" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "china" ]
+    branches: [ "main" ]
 
 jobs:
   # merge-branch:
@@ -39,12 +39,12 @@ jobs:
     - run: CI=false npm run build
 
     # Deploy to server
-    - name: Deploy
+    - name: Deploy to Digital Ocean server
       uses: easingthemes/ssh-deploy@main
       env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           # ARGS: '-avz --delete'
           SOURCE: 'build/'
-          REMOTE_HOST: ${{ secrets.SERVER_HOST_TENCENT }}
+          REMOTE_HOST: ${{ secrets.SERVER_HOST }}
           REMOTE_USER: ${{ secrets.USER_NAME }}
-          TARGET: /www/wwwroot/lihaojin.cn
+          TARGET: /www/wwwroot/haojin.li
