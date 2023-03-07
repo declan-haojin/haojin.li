@@ -39,7 +39,8 @@ import { ReactComponent as NginxIcon } from '../assets/icons/nginx-original.svg'
 import { ReactComponent as FlaskIcon } from '../assets/icons/flask-original-wordmark.svg';
 import { ReactComponent as MongodbIcon } from '../assets/icons/mongodb-original-wordmark.svg';
 import { ReactComponent as RIcon } from '../assets/icons/r-plain.svg';
-// import { ReactComponent as RubyIcon } from '../assets/icons/ruby.svg';
+import { ReactComponent as ExpressIcon } from '../assets/icons/express-original-wordmark.svg';
+import { ReactComponent as TailwindcssIcon } from '../assets/icons/tailwindcss-original-wordmark.svg';
 // ICONS END
 
 /** Default icons */
@@ -72,9 +73,11 @@ const Icons = {
     centos: <SvgIcon component={CentosIcon} viewBox="0 0 128 128" fontSize="large" title="CentOS" />,
     docker: <SvgIcon component={DockerIcon} viewBox="0 0 128 128" fontSize="large" title="Docker" />,
     nginx: <SvgIcon component={NginxIcon} viewBox="0 0 128 128" fontSize="large" title="Nginx" />,
-    flask: <SvgIcon component={FlaskIcon} viewBox="0 0 128 128" fontSize="large" title="Nginx" />,
-    mongodb: <SvgIcon component={MongodbIcon} viewBox="0 0 128 128" fontSize="large" title="Nginx" />,
+    flask: <SvgIcon component={FlaskIcon} viewBox="0 0 128 128" fontSize="large" title="Flask" />,
+    mongodb: <SvgIcon component={MongodbIcon} viewBox="0 0 128 128" fontSize="large" title="MongoDB" />,
     r: <SvgIcon component={RIcon} viewBox="0 0 128 128" fontSize="large" title="R" />,
+    express: <SvgIcon component={ExpressIcon} viewBox="0 0 128 128" fontSize="large" title="Express" />,
+    tailwindcss: <SvgIcon component={TailwindcssIcon} viewBox="0 0 128 128" fontSize="large" title="Tailwindcss" />,
     helpoutline: <HelpOutlineIcon />,
     map: <MapIcon />,
     code: <CodeIcon />,

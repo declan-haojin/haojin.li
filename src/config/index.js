@@ -200,11 +200,13 @@ const CustomSectionsConfig = [
                     {Icons['react']}
                     {Icons['flask']}
                     {Icons['nodejs']}
+                    {Icons['express']}
                     {Icons['docker']}
                     {Icons['postgresql']}
                     {Icons['mongodb']}
                     {Icons['centos']}
                     {Icons['nginx']}
+                    {Icons['tailwindcss']}
                     {Icons['travis']}
                 </p>
             </>
