@@ -101,13 +101,13 @@ const ProjectsConfig = {
             // Links to the project
             links: [
                 {
-                    tooltip: 'See code (only within Duke network)',
+                    tooltip: 'See code (only with Duke credentials)',
                     link: 'https://gitlab.oit.duke.edu/essweb/fixit',
                     icon: Icons['code']
                 },
                 {
-                    tooltip: 'See website (only within Duke network )',
-                    link: 'https://fixit-test.cloud.duke.edu',
+                    tooltip: 'See website',
+                    link: 'https://fixit.oit.duke.edu',
                     icon: Icons['link']
                 }
             ]
@@ -118,7 +118,7 @@ const ProjectsConfig = {
             description: 'From its beginnings in 2018 as a blog for competitive programming tutorials, my personal blog has since expanded to encompass everything from learning to reflections on my life.',
             links: [
                 {
-                    tooltip: 'See source',
+                    tooltip: 'See code',
                     link: 'https://github.com/declan-haojin/blog.haojin.li',
                     icon: Icons['code']
                 },
@@ -149,7 +149,7 @@ const PublicationsConfig = {
     // Projects
     projects: [
         {
-            name: 'Explore BERT and Bi-LSTM with Attention for Chinese Essay Automated Scoring (Publication)',
+            name: 'Explore BERT and Bi-LSTM with Attention for Chinese Essay Automated Scoring',
             icon: <TranslateIcon />,
             description: 'The paper proposes a new neural network model for automated Chinese essay scoring. The model integrates the BERT network for obtaining sentence vectors and a Bi-LSTM with two types of attention mechanism to extract essay vector representation. The model was trained on a self-collected open-source dataset and outperformed existing ones by 24%.',
             links: [
@@ -190,7 +190,7 @@ const CustomSectionsConfig = [
                 <p><li>An easily excited and highly passionate developer who is debugging all the time</li></p>
                 <p><li>An unskilled hiker who dreams of thru-hiking the <a href='https://appalachiantrail.org/explore/hike-the-a-t/thru-hiking/'>Appalachian Trail</a></li></p>
                 <p><li>A dreadfully bad karting driver obsessed with Formula 1</li></p>
-                <p><li>A non-country boy in love with <a href='https://youtu.be/1vrEljMfXYo'>'Take Me Home, Country Roads'</a></li></p>
+                <p><li>A non-country boy in love with <a href='https://youtu.be/1vrEljMfXYo'>Take Me Home, Country Roads</a></li></p>
 
                 <h4>{Icons['code']} Programming</h4>
                 <p className="programming-icons">
