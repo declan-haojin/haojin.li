@@ -1,53 +1,5 @@
 {
-  "name": "krit",
-  "version": "0.1.0",
-  "description": "A configurable personal website template for minimalists.",
-  "homepage": "./",
-  "license": "Apache-2.0",
-  "keywords": [
-    "website",
-    "personal",
-    "web developer"
-  ],
-  "author": {
-    "name": "Fawad Ali",
-    "email": "m.fawaadali98@gmail.com",
-    "url": "https://github.com/9inpachi"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "dependencies": {
-    "@emotion/react": "^11.9.3",
-    "@emotion/styled": "^11.9.3",
-    "@fortawesome/fontawesome-svg-core": "^6.3.0",
-    "@fortawesome/free-solid-svg-icons": "^6.3.0",
-    "@fortawesome/react-fontawesome": "^0.2.0",
-    "@material-ui/core": "^4.12.3",
-    "@material-ui/icons": "^4.11.2",
-    "@mui/icons-material": "^5.8.4",
-    "@mui/system": "^5.9.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "^5.0.1",
-    "sass": "^1.42.1"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
   }
 }
