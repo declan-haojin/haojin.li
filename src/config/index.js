@@ -113,7 +113,7 @@ const ProjectsConfig = {
             ]
         },
         {
-            name: 'Haojin\'s blog',
+            name: 'Haojin\'s Blog',
             icon: <DriveFileRenameOutlineIcon />,
             description: 'From its beginnings in 2018 as a blog for competitive programming tutorials, my personal blog has since expanded to encompass everything from learning to reflections on my life.',
             links: [

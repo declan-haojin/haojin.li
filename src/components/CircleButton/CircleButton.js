@@ -6,8 +6,7 @@ class CircleButton extends React.Component {
     render() {
         const ButtonTag = this.props.link ? 'a' : 'button';
         return (
-            <Tooltip title={this.props.tooltip ?? ''}
-                placement={this.props.tooltipPlacement}>
+            <Tooltip title=''>
                 <ButtonTag href={this.props.link}
                     target={this.props.target}
                     onClick={this.props.onClick}

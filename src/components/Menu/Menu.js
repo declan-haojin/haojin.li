@@ -16,7 +16,6 @@ class Menu extends React.Component {
     menuItems = [
         {
             icon: <ArrowUpwardIcon />,
-            tooltip: 'go to top',
             action: () => {
                 window.scrollTo({
                     top: 0,
@@ -26,7 +25,6 @@ class Menu extends React.Component {
         },
         {
             icon: <NightsStayIcon />,
-            tooltip: 'toggle dark/light theme',
             action: () => {
                 document.body.classList.toggle('dark-mode');
                 if (document.body.classList.contains('dark-mode')) {
@@ -49,7 +47,6 @@ class Menu extends React.Component {
             if (!section.notInMenu) {
                 return {
                     icon: section.headerIcon,
-                    tooltip: section.name,
                     action: () => {
                         this.scrollToSection(section.name);
                     }
