@@ -43,7 +43,7 @@ const CommonConfig = {
     // Name that will be displayed at the top
     name: 'Haojin Li',
     // Tagline that will be displayed after the name
-    tagline: 'Double-majoring CompSci & PoliSci at Duke University',
+    tagline: 'CompSci & PoliSci double-major at Duke University',
     // Configuration for signature in the top section
     email: 'work@haojin.li',
     // Information for social media accounts
