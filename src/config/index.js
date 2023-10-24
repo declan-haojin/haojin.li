@@ -72,7 +72,7 @@ const CommonConfig = {
         },
         {
             name: "Resume",
-            link: 'https://dropovercl.s3.amazonaws.com/2d08c987-9397-4a74-a0e0-d7782afd7fab/f9b45e82-5214-4830-b9da-2dfa16a429f7/2d491796-788f-45e0-a626-9e05d3bfa70c.pdf',
+            link: 'https://dropovercl.s3.amazonaws.com/fba99192-39ce-4015-86e9-de057246c7a0/e48e32b0-d56a-4f1b-992f-0afea4dc43bf/f47b1f81-5fda-449d-a2d7-9925b061e9f1.pdf',
             icon: <DescriptionIcon/>
         },
 

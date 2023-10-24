@@ -23,7 +23,7 @@ class TopSection extends React.Component {
                 <div className="intro">
                     <h1>{CommonConfig.name}</h1>
                     <p>{CommonConfig.tagline}</p>
-                    {/* <h4>Actively looking for 2023 summer internships. Please <a href='mailto:work@haojin.li'>reach out</a>!</h4> */}
+                    <h4>Actively looking for 2024 summer internships. Please <a href='mailto:work@haojin.li'>reach out</a>!</h4>
                 </div>
 
                 <div className="social">
