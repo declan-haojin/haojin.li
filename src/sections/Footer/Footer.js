@@ -18,7 +18,6 @@ class Footer extends React.Component {
                                 link={socialDetails.link} target="_blank">
                                 {socialDetails.icon
                                     ? socialDetails.icon : Icons[socialDetails.name.toLowerCase()]}
-
                             </CircleButton>
                         );
                     })}
