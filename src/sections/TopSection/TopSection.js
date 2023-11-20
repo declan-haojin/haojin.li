@@ -30,7 +30,6 @@ class TopSection extends React.Component {
                         return (
                             <CircleButton key={'top-section-social-' + index} tooltip={socialDetails.name} tooltipPlacement="top"
                                 link={socialDetails.link} target="_blank">
-                                {/* If the social platform icon is given then use that else pick from default icons */}
                                 {socialDetails.icon
                                     ? socialDetails.icon : Icons[socialDetails.name.toLowerCase()]}
                             </CircleButton>
