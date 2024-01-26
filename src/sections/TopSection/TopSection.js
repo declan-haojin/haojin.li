@@ -23,7 +23,7 @@ class TopSection extends React.Component {
                 <div className="intro">
                     <h1>{CommonConfig.name}</h1>
                     <p>{CommonConfig.tagline}</p>
-                    <h4>because one major alone wasn’t enough to confuse me</h4>
+                    {/* <h4>because one major alone wasn’t enough to confuse me</h4> */}
                 </div>
 
                 <div className="social">
