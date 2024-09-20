@@ -130,6 +130,40 @@ const ProjectsConfig = {
             ]
         },
         {
+            name: 'Brother Karamozov',
+            icon: <LanguageIcon />,
+            description: 'Experience an AI-powered, interactive role-playing adventure as characters from the famous novel The Brothers Karamazov.',
+            links: [
+                {
+                    tooltip: 'See article',
+                    link: 'https://bloggerskaramazov.com/2024/08/07/an-ai-powered-journey-into-the-world-of-the-brothers-karamazov/',
+                    icon: <BookIcon />
+                },
+                {
+                    tooltip: 'See website',
+                    link: 'https://blog.haojin.li',
+                    icon: Icons['link']
+                }
+            ]
+        },
+        {
+            name: 'hexo-auto-tagger',
+            icon: <LanguageIcon />,
+            description: 'Automatically assigns relevant predefined tags to Hexo posts, powered by GPT embeddings',
+            links: [
+                {
+                    tooltip: 'See code',
+                    link: 'https://github.com/declan-haojin/hexo-auto-tag',
+                    icon: Icons['code']
+                },
+                {
+                    tooltip: 'See website',
+                    link: 'https://hexo.io/plugins/#:~:text=hexo%2Dauto%2Dtag,of%20GPT%2D3.',
+                    icon: Icons['link']
+                }
+            ]
+        },
+        {
             name: 'haojin.li/[keyword] URL Shortener',
             icon: <LanguageIcon />,
             description: 'A private self-hosted URL shortener service based on YOURLS open-source framework, operates under my personal domain, haojin.li.',
