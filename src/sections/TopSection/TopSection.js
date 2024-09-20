@@ -19,25 +19,27 @@ class TopSection extends React.Component {
 
     render() {
         return (
-            <div className="top-section">
-                <div className="intro">
-                    <h1>{CommonConfig.name}</h1>
-                    <p>{CommonConfig.tagline}</p>
-                    <h4>Incoming Software Engineer Intern at <a href='https://www.dropbox.com/'>Dropbox</a></h4>
-                </div>
+            <>
+                <div className="top-section">
+                    <div className="intro">
+                        <h1>{CommonConfig.name}</h1>
+                        <p>{CommonConfig.tagline}</p>
+                        <h4>Looking for full-time SWE role in 2025 | Prev @ Dropbox</h4>
+                    </div>
 
-                <div className="social">
-                    {CommonConfig.social.map((socialDetails, index) => {
-                        return (
-                            <CircleButton key={'top-section-social-' + index} tooltip={socialDetails.name} tooltipPlacement="top"
-                                link={socialDetails.link} target="_blank">
-                                {socialDetails.icon
-                                    ? socialDetails.icon : Icons[socialDetails.name.toLowerCase()]}
-                            </CircleButton>
-                        );
-                    })}
+                    <div className="social">
+                        {CommonConfig.social.map((socialDetails, index) => {
+                            return (
+                                <CircleButton key={'top-section-social-' + index} tooltip={socialDetails.name} tooltipPlacement="top"
+                                    link={socialDetails.link} target="_blank">
+                                    {socialDetails.icon
+                                        ? socialDetails.icon : Icons[socialDetails.name.toLowerCase()]}
+                                </CircleButton>
+                            );
+                        })}
+                    </div>
                 </div>
-            </div>
+            </>
         );
     }
 }

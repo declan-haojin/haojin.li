@@ -44,6 +44,15 @@
         &.section-centered {
             align-items: center;
         }
+
+        a {
+            text-decoration: underline; /* removes the underline */
+        }
+
+        a:hover {
+            text-decoration: none; /* underlines the text when the mouse hovers over it */
+            font-weight: 900;
+        }
     }
 }
 

@@ -72,7 +72,7 @@ const CommonConfig = {
         },
         {
             name: "Resume",
-            link: 'https://dropovercl.s3.amazonaws.com/fba99192-39ce-4015-86e9-de057246c7a0/e48e32b0-d56a-4f1b-992f-0afea4dc43bf/f47b1f81-5fda-449d-a2d7-9925b061e9f1.pdf',
+            link: 'https://docsend.com/view/rnrn8xerikg2jvfr',
             icon: <DescriptionIcon/>
         },
 
@@ -185,12 +185,30 @@ const CustomSectionsConfig = [
         // Content inside the section
         content: (
             <>
-                <h4><PersonIcon /> Who is this guy?</h4>
-                <p><li>A Duke student double-majoring in Computer Science and Political Science</li></p>
-                <p><li>An easily excited and highly passionate developer who is debugging all the time</li></p>
-                <p><li>An unskilled hiker who dreams of thru-hiking the <a href='https://appalachiantrail.org/explore/hike-the-a-t/thru-hiking/'>Appalachian Trail</a></li></p>
-                <p><li>A dreadfully bad karting driver obsessed with Formula 1</li></p>
-                <p><li>A non-country boy in love with <a href='https://youtu.be/1vrEljMfXYo'>Take Me Home, Country Roads</a></li></p>
+                <h4><PersonIcon/> Fun facts</h4>
+                <p>
+                    <li>I never met a stranger.</li>
+                </p>
+                <p>
+                    <li>I visited <a href='https://blog.haojin.li/categories/national-parks/'>22</a> US national
+                        parks in 2 years.
+                    </li>
+                </p>
+                <p>
+                    <li>I road-tripped through <a href='https://blog.haojin.li/categories/europe-road-trip/'>11</a> European
+                        countries in 20 days.
+                    </li>
+                </p>
+                <p>
+                    <li>I swim in any water, even a <a
+                        href='https://a.dropoverapp.com/cloud/download/d81fddba-8c3b-4816-bb27-83fcebb22656/e4f478c7-3ba7-4d90-8a2c-13f863283329'>glacier
+                        crevasses in Alaska</a>.</li>
+                </p>
+
+                <p>
+                    <li>I drive people crazy by looping Take Me Home, Country Roads on repeat.
+                    </li>
+                </p>
 
                 <h4>{Icons['code']} Programming</h4>
                 <p className="programming-icons">
