@@ -228,8 +228,7 @@ const CustomSectionsConfig = [
                 </p>
                 <p>
                     <li>I road-tripped through <a
-                        href='https://blog.haojin.li/categories/europe-road-trip/' target="_blank">11 European
-                        countries</a> in 20 days.
+                        href='https://blog.haojin.li/categories/europe-road-trip/' target="_blank">11 countries</a> in 20 days.
                     </li>
                 </p>
                 <p>
