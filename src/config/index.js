@@ -221,26 +221,33 @@ const CustomSectionsConfig = [
             <>
                 <h4><PersonIcon/> Fun facts</h4>
                 <p>
-                    <li>I never met a stranger.</li>
-                </p>
-                <p>
-                    <li>I visited <a href='https://blog.haojin.li/categories/national-parks/'>22</a> US national
-                        parks in 2 years.
+                    <li>I visited <a href='https://blog.haojin.li/categories/national-parks/' target="_blank">30
+                        national
+                        parks </a>in the past 3 years.
                     </li>
                 </p>
                 <p>
-                    <li>I road-tripped through <a href='https://blog.haojin.li/categories/europe-road-trip/'>11</a> European
-                        countries in 20 days.
+                    <li>I road-tripped through <a
+                        href='https://blog.haojin.li/categories/europe-road-trip/' target="_blank">11 European
+                        countries</a> in 20 days.
                     </li>
                 </p>
                 <p>
-                    <li>I swim in any water, even a <a
-                        href='https://a.dropoverapp.com/cloud/download/d81fddba-8c3b-4816-bb27-83fcebb22656/e4f478c7-3ba7-4d90-8a2c-13f863283329'>glacier
-                        crevasses in Alaska</a>.</li>
+                    <li>I swim in freezing water such as a <a
+                        href='https://storage.haojin.li/glacier-swimming.mp4' target="_blank">glacier
+                        crevasses in Alaska</a>.
+                    </li>
                 </p>
 
                 <p>
-                    <li>I drive people crazy by looping Take Me Home, Country Roads on repeat.
+                    <li>I drive people crazy by looping <a href='https://www.youtube.com/watch?v=1vrEljMfXYo'
+                                                           target="_blank">Take Me Home, Country Roads</a> on repeat.
+                    </li>
+                </p>
+
+                <p>
+                    <li>I enjoy watching <a href='https://blog.haojin.li/posts/2024-06-11-montreal-f1-grand-prix/'
+                                            target="_blank">Formula 1</a> and trying out crazy things.
                     </li>
                 </p>
 
@@ -278,7 +285,7 @@ const CustomSectionsConfig = [
         name: 'Projects',
         // Icon next to the header title. The headerIcon can use any SVG icon, material icons are preferred
         // See https://material-ui.com/components/material-icons/
-        headerIcon: <ComputerIcon />,
+        headerIcon: <ComputerIcon/>,
         // Extra classes to apply styling
         // "section-reverse" class makes a section right to left
         extraClass: 'section-reverse',
@@ -288,13 +295,13 @@ const CustomSectionsConfig = [
                 {ProjectsConfig.projects.map((project, index) => {
                     return (
                         <div key={'project-' + index}>
-                            <h3 style={{ fontSize: '1.4rem' }}>{project.icon} {project.name}</h3>
+                            <h3 style={{fontSize: '1.4rem'}}>{project.icon} {project.name}</h3>
                             <p>{project.description}</p>
-                            <div style={{ textAlign: 'right' }}>
+                            <div style={{textAlign: 'right'}}>
                                 {project.links.map((link, linkIndex) => {
                                     const marginRightStyle = linkIndex === project.links.length - 1
-                                                    ? { marginRight: '0' }
-                                                    : undefined;
+                                        ? {marginRight: '0'}
+                                        : undefined;
 
                                     return (
                                         <CircleButton style={marginRightStyle} key={'project-link-' + index + linkIndex}
