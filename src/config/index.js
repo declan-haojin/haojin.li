@@ -141,7 +141,7 @@ const ProjectsConfig = {
                 },
                 {
                     tooltip: 'See website',
-                    link: 'https://blog.haojin.li',
+                    link: 'https://haojin.li/bk',
                     icon: Icons['link']
                 }
             ]
