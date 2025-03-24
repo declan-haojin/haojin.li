@@ -234,7 +234,7 @@ const CustomSectionsConfig = [
                 <p>
                     <li>I swim in freezing water such as a <a
                         href='https://storage.haojin.li/glacier-swimming.mp4' target="_blank">glacier
-                        crevasses in Alaska</a>.
+                        crevasse in Alaska</a>.
                     </li>
                 </p>
 
